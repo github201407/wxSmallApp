@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "今日天气",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "color": "#ffdf00",
+      "selectedColor": "#ffa800",
+      "iconPath": "drawable/fw_nav_home.png",
+      "selectedIconPath": "drawable/fw_nav_home_on.png"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "运行",
+      "color": "#ffdf00",
+      "selectedColor": "#ffa800",
+      "iconPath": "drawable/fw_nav_find.png",
+      "selectedIconPath": "drawable/fw_nav_find_on.png"
+    }],
+    "borderStyle": "white",
+    "backgroundColor": "#fff"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
